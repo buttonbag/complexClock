@@ -1,48 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:100&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:100&display=swap");
 :root {
-	--r: 300;
-	--g: 300;
-	--b: 120;
-	--gr-top: rgb(224,195,252);
-		// #E0C3FC;
-	--gr-bottom: rgb(142,197,252);
+  --r: 300;
+  --g: 300;
+  --b: 120;
+  --gr-top: rgb(224,195,252);
+  --gr-bottom: rgb(142,197,252);
 }
 
-.clock {  
-	background-color: #8EC5FC;
-	background-image: linear-gradient(0deg, 
-		var(--gr-bottom) 0%, 
-		rgb(224,195,252) 100%);
-	width: 200px; 
-	height: 200px; 
-	border-radius: 50%;
-	margin: 5vh auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Work Sans';
-
-	p {
-		font-size: 32px;
-	}
-	
+.clock {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(0deg, var(--gr-bottom) 0%, #e0c3fc 100%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans";
+}
+.clock p {
+  font-size: 4em;
 }
 
 .alarm {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	
-	input { width: 80px }
-	
-	button { 
-		background: var(--gr-bottom);
-		border-radius: 15px;
-		border: 0;
-		padding: 10px 15px;
-		margin: auto 20px;
-		line-height: 12px;
-	}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.alarm input {
+  width: 80px;
+}
+.alarm button {
+  background: var(--gr-bottom);
+  border-radius: 15px;
+  border: 0;
+  padding: 10px 15px;
+  margin: auto 20px;
+  line-height: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
